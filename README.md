@@ -1,1 +1,1 @@
-# persionnal-doomEmacs-config
+# 自用
