@@ -1,10 +1,10 @@
 ;; package-- doom主题设置
 ;;; code:
-(setq doom-theme 'doom-one)
+(setq doom-theme 'doom-acario-light)
 ;; 字体设置
 (setq main-font-size 18)
 (setq doom-font (font-spec :family "Hack Nerd Font" :size main-font-size :weight 'regular)
-      doom-variable-pitch-font(font-spec :family "WenQuanYi Zen Hei" :size main-font-size :weight 'regular)
+      doom-variable-pitch-font(font-spec :family "思源黑体 CN" :size main-font-size :weight 'regular)
       doom-serif-font(font-spec :family "CodeNewRoman Nerd Font" :size main-font-size :weight 'light )
       doom-big-font (font-spec :family "CodeNewRoman Nerd Font" :size main-font-size :weight 'regular)
       )
@@ -16,6 +16,18 @@
 (setq evil-move-cursor-back nil)
 
 ; org 部分修改
+;; (setq org-emphasis-alist
+;; '(("*" cold)
+;;  ("/" italic)
+;;  ("_" underline)
+;;  ("=" (:background "white"))
+;;  ("~" (:box (:line-width 1
+;;              :color "grey75"
+;;              :style released-button)))
+;;  ("+"
+;;   (:foreground "dark gray" :strike-through t))))
+;;
+;;
 ;; superstar 配置
 (setq org-superstar-headline-bullets-list '("☰" "☱" "☲" "☳" "☴" "☵" "☶" "☷"))
 ;; (setq org-superstar-prettify-item-bullets )

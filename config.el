@@ -92,3 +92,4 @@
 (require '+ui)
 (require 'orgelp)
 (require '+rime)
+;; (require '+eaf)

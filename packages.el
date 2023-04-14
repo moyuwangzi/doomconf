@@ -28,12 +28,12 @@
                          :type git
                          :host github
                          :repo "manateelazycat/auto-save"
-                         :hook (rime-mode-hook . auto-save-enable)
-                         :config (
-                                  setq auto-save-idle 1
-                                       auto-save-silent t
-                                       auto-save-delete-trailing-whitespace t
-                                  )
+                         ;; :hook (rime-active-mode . auto-save-enable)
+                         ;; :config (
+                         ;;          setq auto-save-idle 1
+                         ;;               auto-save-silent t
+                         ;;               auto-save-delete-trailing-whitespace t
+                         ;;          )
                        ))
 
 ;; -*- no-byte-compile: t; -*-

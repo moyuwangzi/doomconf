@@ -22,6 +22,13 @@
 (setq org-directory "~/Documents/Org")
 (setq org-noter-notes-search-path '("~/Documents/notes"))
 
+;;自动保存
+(require 'auto-save)
+(auto-save-enable)
+(setq auto-save-idle 5
+      auto-save-delete-trailing-whitespace t)
+
+
 
 (message "config 配置加载完成")
 (provide 'binconfig)
